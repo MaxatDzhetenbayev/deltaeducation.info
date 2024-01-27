@@ -1,4 +1,3 @@
-
 import { TeacherCard } from "./TeacherCard/TeacherCard";
 
 import { HTag, Wrapper } from "../../shared/ui";

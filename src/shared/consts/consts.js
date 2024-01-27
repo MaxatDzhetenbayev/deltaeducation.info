@@ -65,6 +65,16 @@ export const teachersList = [
     text: "Специалист в области парсинга социальных сетей, data science. Опытный Python-developer. Обширные знания в работе сетевых протоколов.",
     image: madi,
   },
+  {
+    name: "Бидахметов Акылжан",
+    text: "Преподаватель языка программирования PHP, специалист в области Web - разработки. Знание HTML, CSS, JS, PHP, Java, Yii2 framework, Git. Магистр технических наук",
+    image: "https://thumb.tildacdn.com/tild6237-3337-4033-a633-373366336538/-/cover/240x240/center/center/-/format/webp/photo_2023-05-15_16-.jpg",
+  },
+  {
+    name: "Джетенбаев Максат",
+    text: "Преподаватель языка программирования Frontend, специалист в области Web - разработки. Знание HTML, CSS, JS, ReactJS, RTKQuery, NestJS, PostgreSQL, Sequelize, PHP, Yii2",
+    image: "./teachers/teacher1.jpg",
+  },
 ];
 
 export const companiesList = [imas, aero, doc, emotion, allzora];

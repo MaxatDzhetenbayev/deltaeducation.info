@@ -102,13 +102,18 @@ table{
 .courses__item__footer {
     display: flex;
     flex-direction: column;
-    padding: 0 20px 10px;
+    padding: 10px 0;
     gap: 20px;
 }
 
 .courses__item__line{
     border-bottom: 4px solid var(--primary-color);
+}
 
+.courses__item__line > p{
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 5px;
 }
 
 .courses__item__table th,

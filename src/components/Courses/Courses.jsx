@@ -131,7 +131,7 @@ export const Courses = () => {
                                         </tr>
                                         <tr >
                                             {course.footer.map((item, index) => (
-                                                <td scope="row" className={styles.courses__item__line} key={index}>{item.sub}</td>
+                                                <td scope="row" className={styles.courses__item__line} key={index}><p>{item.sub}</p></td>
                                             ))}
                                         </tr>
                                     </tbody>
