@@ -1,0 +1,94 @@
+.background{
+  background: url("https://static.tildacdn.info/tild3562-3130-4464-b265-393434323461/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Черный цвет с прозрачностью 50% */
+  z-index: 1; /* Устанавливаем псевдо-элемент под содержимое, но над фоном */
+}
+
+.background > * {
+  position: relative;
+  z-index: 2; /* Устанавливаем элементы поверх псевдо-элемента */
+}
+
+.welcome {
+  color: var(--alternative-text-color);
+  height: calc(100vh - 81px);
+
+  &_headText {
+    margin-top: 20px;
+  }
+
+  &_content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &_text {
+    max-width: 884px;
+  }
+
+  &_mainText {
+    margin-top: 40px;
+  }
+
+  &_button {
+    margin-top: 20px;
+  }
+
+  img {
+    max-width: 316px;
+  }
+
+  &_clouds {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  .welcome {
+    img {
+      display: none;
+    }
+
+    &_headText {
+      margin-top: 0;
+    }
+
+    &_content {
+      // margin-top: 25px;
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &_mainText {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .welcome {
+    &_clouds {
+      justify-content: center;
+    }
+  }
+}

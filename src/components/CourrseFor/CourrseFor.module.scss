@@ -1,0 +1,32 @@
+.root {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.inner {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.item {
+  img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 960px) {
+  .inner {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 60px;
+  }
+
+  .item {
+    max-width: 560px;
+  }
+}

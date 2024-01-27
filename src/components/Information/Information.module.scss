@@ -1,0 +1,36 @@
+.root {
+  margin-top: 80px;
+}
+
+.information {
+  &_use {
+    margin-top: 40px;
+  }
+
+  &_clouds {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    div {
+      flex-grow: 1;
+    }
+  }
+}
+
+.inner {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 60px;
+}
+
+@media (max-width: 720px) {
+  .inner {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

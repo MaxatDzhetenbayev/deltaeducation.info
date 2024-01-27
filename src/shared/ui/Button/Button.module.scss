@@ -1,0 +1,13 @@
+.root {
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--alternative-text-color);
+  padding: 15px clamp(60px, 10vw, 100px);
+  cursor: pointer;
+}
+
+.root:hover {
+  transition: all 0.3s ease;
+  background-color: var(--primary-color-hover);
+}

@@ -1,0 +1,30 @@
+.root {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  align-items: center;
+  gap: 60px;
+  background-color: #fff;
+
+  padding: 50px;
+  border-radius: 10px;
+}
+
+@media (max-width: 960px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 540px) {
+  .root {
+    padding: 20px;
+    gap: 30px;
+
+    p {
+      text-align: justify;
+    }
+  }
+}

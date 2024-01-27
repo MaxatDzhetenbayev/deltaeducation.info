@@ -1,0 +1,33 @@
+.root {
+  text-align: center;
+}
+
+.primary {
+  background-color: var(--aliceblue-color);
+  color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--alternative-text-color);
+}
+
+.ghost {
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+}
+
+.blues {
+  background-color: var(--primary-color);
+  color: var(--alternative-text-color);
+}
+
+.small {
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.large {
+  border-radius: 20px;
+  padding: 15px 25px;
+}

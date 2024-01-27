@@ -1,0 +1,94 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* *color varibales */
+
+  /* *text */
+  --primary-text-color: #1f1f1f;
+  --secondary-text-color: #121212;
+  --alternative-text-color: #fff;
+
+  /* *default  */
+  --primary-color: #136ef6;
+  --primary-color-hover: #175dc7;
+  --secondary-color: #1f1f1f;
+
+  --error-color: #eb3d3d;
+
+  --aliceblue-color: #e8f1ff;
+}
+
+/* Todo screens */
+/* *large 960  */
+/* *Medium 720  */
+/* *small 540  */
+
+/* Todo screens */
+
+/* *font-face Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets//fonts/OnestThin1602-hint.woff");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets//fonts/OnestRegular1602-hint.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets//fonts/OnestBold1602-hint.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets//fonts/OnestExtraBold1602-hint.woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* *default styles */
+
+* {
+  font-family: "Inter", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+}
+
+body.scroll-lock {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	overflow-x: hidden;
+}

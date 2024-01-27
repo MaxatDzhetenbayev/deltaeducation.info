@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.person {
+  position: absolute;
+  bottom: -150px;
+  left: calc(50% - (30px * 2));
+  transform: translateX(-40px);
+  &_img {
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #000;
+  }
+}

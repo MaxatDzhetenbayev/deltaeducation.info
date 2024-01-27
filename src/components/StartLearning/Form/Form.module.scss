@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 380px;
+}
+
+.input {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: clamp(12px, 4vw, 17px);
+  font-weight: 400;
+  height: 50px;
+  padding: 0px 20px;
+}
+
+.required {
+  font-size: clamp(10px, 4vw, 16px);
+  color: var(--error-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+.agreement {
+  font-size: 13px;
+  span {
+    color: var(--error-color);
+  }
+}

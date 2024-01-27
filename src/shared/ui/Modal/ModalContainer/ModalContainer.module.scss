@@ -1,0 +1,29 @@
+.root {
+  max-width: 480px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    border: none;
+    background-color: transparent;
+
+    font-size: 24px;
+
+    cursor: pointer;
+  }
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
