@@ -88,7 +88,7 @@ export const Form = ({ modalClose }) => {
         <p className={styles.required}>{errors?.phone?.message}</p>
       )}
 
-      <Button>Начать Учиться</Button>
+      <Button>Отправить заявку</Button>
       <p className={styles.agreement}>
         Отправляя форму, вы принимаете
         <span>«Соглашение об обработке персональных данных»</span> и условия
