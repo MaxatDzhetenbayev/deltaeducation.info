@@ -1,6 +1,6 @@
 import { useForm, Controller } from "react-hook-form";
 // import axios from "axios";
-// import { toast} from "react-toastify";
+import { toast} from "react-toastify";
 import { Input } from "../../../shared/ui/Input/Input";
 import { Button } from "../../../shared/ui";
 import styles from "./Form.module.scss";
@@ -24,8 +24,16 @@ export const Form = ({ modalClose }) => {
 
     emailjs.send('service_okoza0b', 'template_jw3f7uh', data, 'myx63XfRfUvzWa19x')
       .then((response) => {
+			if(response.status == 200){
+				toast.success(
+					"Ваши данные были отправлены. Ожидайте обратной связи!"
+				 );
+			}
         console.log('SUCCESS!', response.status, response.text);
       }, (err) => {
+			toast.error(
+				"Ошибка! Ваши данные не были отправлены"
+			 );
         console.log('FAILED...', err);
       });
     reset();
