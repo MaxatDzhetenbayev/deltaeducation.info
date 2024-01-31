@@ -51,11 +51,12 @@ export const Footer = () => {
               ))}
             </ul>
           </div>
-          <iframe
+          <div id="map" className={styles.map}></div>
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635.7379730016511!2d80.25873532462822!3d50.404734157231445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f2652e414b061f%3A0x2fbd2797be1e7ee3!2zR2FnYXJpbiBzdHJlZXQgODIsINCh0LXQvNC10LkgMDcwMDAw!5e0!3m2!1sru!2skz!4v1692760982446!5m2!1sru!2skz"
             className={styles.map}
             loading="lazy"
-          ></iframe>
+          ></iframe> */}
           {/* <img src={logo} className={styles.footer_logo} alt="" />
           <ul className={styles.footer_sociallist}>
             {socialLinkList.map((item) => (

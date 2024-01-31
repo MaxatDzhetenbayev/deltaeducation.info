@@ -9,5 +9,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+    <script>
+       DG.then(function() {
+                var map = DG.map('map', {
+                    center: [50.405098020900745, 80.26721789832197],
+                    zoom: 18
+                });
+                DG.marker([50.405098020900745, 80.26721789832197])
+                    .addTo(map)
+                    .bindLabel(`Школа программирования \n
+                    Delta Education`, {
+                        static: true
+                    });
+            });
+    </script>
   </body>
 </html>

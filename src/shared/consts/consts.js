@@ -72,7 +72,7 @@ export const teachersList = [
   },
   {
     name: "Джетенбаев Максат",
-    text: "Преподаватель языка программирования Frontend, специалист в области Web - разработки. Знание HTML, CSS, JS, ReactJS, RTKQuery, NestJS, PostgreSQL, Sequelize, PHP, Yii2",
+    text: "Преподаватель по Frontend программированию, специалист в области Web - разработки. Знание HTML, CSS, JS, ReactJS, RTKQuery, NestJS, PostgreSQL, Sequelize, PHP, Yii2",
     image: "./teachers/teacher1.jpg",
   },
 ];
